@@ -1,7 +1,11 @@
 aid: halliburton
-url: https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.halliburton.com
+description: >-
+  Halliburton delivers advanced products and services to meet the evolving needs of
+  the global energy industry, driving innovation, reliability, and performance.
