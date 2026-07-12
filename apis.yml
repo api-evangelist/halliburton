@@ -19,6 +19,8 @@ tags:
   - Oilfield Services
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/halliburton-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Halliburton-Landmark
   - type: LinkedIn
