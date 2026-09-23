@@ -1,7 +1,9 @@
 ---
 title: Press Releases - Halliburton
 url: https://halliburton.gcs-web.com/news-and-events/press-releases?_correlationId=1896&page=9
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Halliburton" press release artificial intelligence'
 position: 5
 source: serpapi-google

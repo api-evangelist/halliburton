@@ -1,7 +1,9 @@
 ---
 title: Accelerating Digital Supply Chain Transformation
 url: https://www.halliburton.com/en/about-us/press-release/halliburton-accenture-digital-supply-chain-transformation
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Halliburton" press release artificial intelligence'
 position: 4
 source: serpapi-google

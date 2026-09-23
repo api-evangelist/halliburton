@@ -1,7 +1,9 @@
 ---
 title: News and Press Releases
 url: https://www.halliburton.com/en/about-us/press-release
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Halliburton" press release artificial intelligence'
 position: 1
 source: serpapi-google

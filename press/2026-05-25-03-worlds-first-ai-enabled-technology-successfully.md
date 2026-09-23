@@ -1,7 +1,9 @@
 ---
 title: World's first AI-enabled technology successfully ...
 url: https://www.halliburton.com/en/about-us/press-release/world-first-ai-enabled-technology-successfully-implemented-by-aiq-and-halliburton-in-adnoc-upstream-operations
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Halliburton" press release artificial intelligence'
 position: 3
 source: serpapi-google
