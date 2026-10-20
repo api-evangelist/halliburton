@@ -1,0 +1,16 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/halliburton/integrations
+- https://n8n.io/integrations/halliburton/
+- https://composio.dev/toolkits/halliburton
+- https://monid.ai/tools/halliburton
+checked:
+- https://composio.dev/toolkits/halliburton
+- https://monid.ai/tools/halliburton
+- https://n8n.io/integrations/halliburton/
+- https://zapier.com/apps/halliburton/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

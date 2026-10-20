@@ -23,37 +23,65 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/halliburton.png
 name: Halliburton
-description: >-
-  Halliburton delivers advanced products and services to meet the evolving
-  needs of the global energy industry, driving innovation, reliability, and
-  performance. Halliburton operates enterprise software platforms such as
-  DecisionSpace 365, Landmark, and iEnergy, but does not currently publish a
-  public, openly accessible REST API for general developer use.
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/apis.yml
+description: Halliburton delivers advanced products and services to meet the evolving needs of the global energy industry, driving innovation, reliability, and performance. Halliburton operates enterprise software platforms such as DecisionSpace 365, Landmark, and iEnergy, but does not currently publish a public, openly accessible REST API for general developer use. Its Landmark software (now served from halliburton.com/en/software) supports the OSDU Data Platform, and customer support runs through a Landmark customer portal and iEnergy cloud login.
+url: https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/apis.yml
 type: Index
 created: '2026-03-21'
-modified: '2026-04-28'
+modified: '2026-10-20'
 specificationVersion: '0.23'
 tags:
-  - Energy
-  - Fortune 500
-  - Oil and Gas
-  - Oilfield Services
-apis: []
-common:
-  - type: DomainSecurity
-    url: security/halliburton-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/Halliburton-Landmark
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/halliburton
-  - type: Website
-    url: https://www.halliburton.com
-  - type: Landmark
-    url: https://www.landmark.solutions
-  - type: OSDU
-    url: https://osduforum.org
+- Energy
+- Fortune 500
+- Oil and Gas
+- Oilfield Services
+- Software
+- Data Platforms
+- OSDU
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+common:
+- type: WellKnown
+  url: well-known/halliburton-well-known.yml
+- type: Hosts
+  url: hosts/halliburton-hosts.yml
+- type: Vendors
+  url: vendors/halliburton-vendors.yml
+- type: DomainSecurity
+  url: security/halliburton-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/Halliburton-Landmark
+- type: LinkedIn
+  url: https://www.linkedin.com/company/halliburton
+- type: Website
+  url: https://www.halliburton.com
+- type: Landmark
+  url: https://www.landmark.solutions
+- type: OSDU
+  url: https://osduforum.org
+- type: Support
+  url: https://www.halliburton.com/en/software/customer-support
+- type: Login
+  url: https://login.ienergycloud.solutions/
+- type: PrivacyPolicy
+  url: https://www.halliburton.com/en/about-us/corporate-governance/privacy-policy
+- type: TermsOfService
+  url: https://www.halliburton.com/en/about-us/corporate-governance/terms-and-conditions
+apis: []
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: Halliburton publishes no public API or developer docs; Landmark/DecisionSpace software documentation and support sit behind the css.lgc.com customer portal and the iEnergy cloud login, and developer/api hosts do not resolve.
+  evidence:
+  - url: https://www.halliburton.com/en/software/customer-support
+    status: 200
+  - url: https://www.halliburton.com/llms.txt
+    status: 404
+  - url: https://www.halliburton.com/en/software/osdu.html
+    status: 200
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v5

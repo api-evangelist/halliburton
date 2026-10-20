@@ -1,0 +1,141 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 12
+  own: 5
+  other_domain: 5
+  platform: 2
+  roles:
+  - api
+  - identity
+  - other
+  - source
+  - website
+hosts:
+- host: api.halliburton.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: halliburton.com
+  role: api
+  relation: own
+- host: api.landmark.solutions
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: landmark.solutions
+  role: api
+  relation: other-domain
+- host: api.osduforum.org
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: osduforum.org
+  role: api
+  relation: other-domain
+- host: careers.halliburton.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: halliburton.com
+  role: other
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: ir.halliburton.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: halliburton.com
+  role: other
+  relation: own
+- host: jobs.halliburton.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: halliburton.com
+  role: other
+  relation: own
+- host: login.ienergycloud.solutions
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Login
+  serves:
+  - identity
+  vendor: okta
+  registrable_domain: ienergycloud.solutions
+  role: identity
+  relation: other-domain
+- host: osduforum.org
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - OSDU
+  serves: []
+  registrable_domain: osduforum.org
+  role: other
+  relation: other-domain
+- host: www.halliburton.com
+  found_by:
+  - pointer
+  - probed
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  - Support
+  - PrivacyPolicy
+  - TermsOfService
+  serves:
+  - cdn
+  vendor: fastly
+  registrable_domain: halliburton.com
+  role: website
+  relation: own
+- host: www.landmark.solutions
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Landmark
+  serves: []
+  registrable_domain: landmark.solutions
+  role: other
+  relation: other-domain
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
