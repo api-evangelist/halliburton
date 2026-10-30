@@ -1,4 +1,4 @@
-# Halliburton (halliburton)
+# Halliburton
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,37 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Halliburton delivers advanced products and services to meet the evolving needs of the global energy industry, driving innovation, reliability, and performance. Halliburton operates enterprise software platforms such as DecisionSpace 365, Landmark, and iEnergy, but does not currently publish a public, openly accessible REST API for general developer use.
+Halliburton delivers advanced products and services to meet the evolving needs of the global energy industry, driving innovation, reliability, and performance. Halliburton operates enterprise software platforms such as DecisionSpace 365, Landmark, and iEnergy, but does not currently publish a public, openly accessible REST API for general developer use. Its Landmark software (now served from halliburton.com/en/software) supports the OSDU Data Platform, and customer support runs through a Landmark customer portal and iEnergy cloud login.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/apis.yml)
+**Areas:** Energy · Fortune 500 · Oil and Gas · Oilfield Services · Software · Data Platforms · OSDU
 
-## Scope
+## Halliburton on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Halliburton is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/halliburton/](https://apis.io/providers/halliburton/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### Published properties
 
- - Energy, Fortune 500, Oil and Gas, Oilfield Services
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-28
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Halliburton Domain Security](https://apis.io/security/halliburton/halliburton-domain-security/)
 
-No public APIs have been documented yet. Contributions welcome.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.halliburton.com)
-- [Landmark](https://www.landmark.solutions)
-- [OSDU](https://osduforum.org)
+- [Support](https://www.halliburton.com/en/software/customer-support)
+- [Terms of service](https://www.halliburton.com/en/about-us/corporate-governance/terms-and-conditions)
+- [Privacy policy](https://www.halliburton.com/en/about-us/corporate-governance/privacy-policy)
+- [GitHub](https://github.com/Halliburton-Landmark)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 13.4** — emerging · rubric 0.24.0 · scored 2026-10-20
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 18.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.4** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/halliburton/](https://apis.io/providers/halliburton/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Halliburton: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/halliburton/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
